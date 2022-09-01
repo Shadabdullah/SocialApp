@@ -13,4 +13,5 @@ class Profile(models.Model):
     bio = pass
     profileimage = models.ImageField(upload_to ="profile_image",default=)
     location = pass
+    
 
